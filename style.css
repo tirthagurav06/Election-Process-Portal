@@ -1,0 +1,131 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: #f4f6f9;
+}
+
+/* Top Bar */
+.top-bar {
+  background: #1e3a8a;
+  color: white;
+  text-align: center;
+  padding: 6px;
+  font-size: 14px;
+}
+
+/* Header */
+header {
+  text-align: center;
+  padding: 50px 20px;
+  background: linear-gradient(to right, #ff9933, #ffffff, #138808);
+}
+
+header h1 {
+  margin-bottom: 10px;
+}
+
+/* Button */
+.btn {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 20px;
+  background: #1e40af;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+/* Navbar */
+nav {
+  background: #0f172a;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  margin: 0;
+  padding: 12px;
+  flex-wrap: wrap;
+}
+
+nav ul li {
+  margin: 5px 15px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+/* Stats */
+.stats {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  background: #eef2ff;
+  flex-wrap: wrap;
+}
+
+.stat-box {
+  text-align: center;
+}
+
+.stat-box h3 {
+  color: #1e40af;
+  font-size: 28px;
+}
+
+/* Sections */
+section {
+  padding: 40px;
+  background: white;
+  margin: 20px;
+  border-radius: 10px;
+}
+
+/* Cards */
+.info-grid {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.card {
+  flex: 1;
+  min-width: 200px;
+  background: #e0e7ff;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+/* Timeline */
+.timeline {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px,1fr));
+  gap: 15px;
+}
+
+.step {
+  background: #dbeafe;
+  padding: 15px;
+  border-left: 5px solid #2563eb;
+}
+
+/* Footer */
+footer {
+  background: #0f172a;
+  color: white;
+  padding: 30px;
+}
+
+.footer-grid {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+footer a {
+  color: #93c5fd;
+  text-decoration: none;
+}
